@@ -1,4 +1,4 @@
-# **[rsschool-cv](https://ley-na.github.io/rsschool-cv/cv)**
+# **[rsschool-cv](https://ley-na.github.io/rsschool-cv/)**
 
 # Elena Voytovich
 
@@ -46,7 +46,6 @@ function rentalCarCost(d) {
   return 40 * d - (d >= 7 ? 50 : (d >= 3 ? 20 : 0))
 }
 ```
-
 
 ## Education
 - **Minsk State Linguistic University:** Foreign Languages and Literature
