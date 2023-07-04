@@ -2,63 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <main>
-        <div>
-            <h1>Elena Voytovich</h1>
-            <p>Frontend developer</p>
-        </div>
-        <div>
-            <h2>Contacts:</h2>
-            <ul>
-                <li>Location: <b>Minsk, Belarus</b></li>
-                <li>Discord: <b>elena_v</b></li>
-                <li>Email: <b>elenav1325@gmail.com</b></li>
-            </ul>
-        </div>
-        <div>
-            <h2>About Me</h2>
-            <p>
-                One day I woke up and decided I'd take the chance at learning Web Development.
-                Now coding is my passion and my new professional career focus.
-            </p>
-        </div>
-        <div>
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML, CSS (Sass/Less)</li>
-                <li>JavaScript, TypeScript</li>
-                <li>React, React Router</li>
-                <li>Webpack</li>
-                <li>BEM</li>
-                <li>Jira</li>
-                <li>Figma / Photoshop</li>
-            </ul>
-        </div>
-        <div>
-            <h2>Code Example</h2>
-            <code>
-                const rentalCarCost = (d) =&gt; 40 * d - (d &gt;= 7 ? 50 : (d &gt;= 3 ? 20 : 0))
-            </code>
-        </div>
-        <div>
-            <h2>Education</h2>
-            <ul>
-                <li>Minsk State Linguistic University: Foreign Languages and Literature</li>
-                <li>HtmlAcademy</li>
-            </ul>
-        </div>
-        <div>
-            <h2>Languages</h2>
-            <ul>
-                <li>English: B2+</li>
-                <li>Spanish: A2</li>
-                <li>Russian: native</li>
-            </ul>
+        <div id="contacts" class="container">
+            <div>
+                <h1>Elena Voytovich</h1>
+                <p>Frontend developer</p>
+            </div>
+            <div>
+                <h2>Contacts:</h2>
+                <ul>
+                    <li>Location: <b>Minsk, Belarus</b></li>
+                    <li>Discord: <b>elena_v</b></li>
+                    <li>Email: <b>elenav1325@gmail.com</b></li>
+                </ul>
+            </div>
+            <div id="about">
+                <h2>About Me</h2>
+                <p>
+                    One day I woke up and decided I'd take the chance at learning Web Development.
+                    Now coding is my passion and my new professional career focus.
+                </p>
+            </div>
+            <div id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML, CSS (Sass/Less)</li>
+                    <li>JavaScript, TypeScript</li>
+                    <li>React, React Router</li>
+                    <li>Webpack</li>
+                    <li>BEM</li>
+                    <li>Jira</li>
+                    <li>Figma / Photoshop</li>
+                </ul>
+            </div>
+            <div id="code">
+                <h2>Code Example</h2>
+                <code>
+                    const rentalCarCost = (d) =&gt; 40 * d - (d &gt;= 7 ? 50 : (d &gt;= 3 ? 20 : 0))
+                </code>
+            </div>
+            <div id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>Minsk State Linguistic University: Foreign Languages and Literature</li>
+                    <li>HtmlAcademy</li>
+                </ul>
+            </div>
+            <div class="education">
+                <h2>Languages</h2>
+                <ul>
+                    <li>English: B2+</li>
+                    <li>Spanish: A2</li>
+                    <li>Russian: native</li>
+                </ul>
+            </div>
         </div>
     </main>
+    <footer>
+        <div class="container">
+            
+        </div>
+    </footer>
 </body>
 </html>
